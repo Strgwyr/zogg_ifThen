@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         else if (view.getId() == R.id.btnDecision2) {
             txtLore.setText("You are shot with a sleeping dart and when you wake up, you are tied to a tree. Out of pure shock, you pass out again after worrying about the what happens next. When you wake up, You are stuck inside a room. What should you do?");
             txtDecision.setText("Decision 1 involves you waiting to see what happens. \n Decision 2 involves you trying to find a way to escape the room");
+
+
                 if (view.getId() == R.id.btnDecision1) {
                 txtLore.setText("After days of waiting with no food or water someone opens the door. \n It is your friends! However, they were shot from behind and the killer shoots you next");
             }
